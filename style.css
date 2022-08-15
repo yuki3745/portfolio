@@ -283,7 +283,7 @@ header.show {
 }
 
 /* PROFILE */
-.profile img {
+#profile img {
 	width: 150px;
 	height: 250px;
 	border-radius: 8px;
@@ -441,7 +441,7 @@ h2 {
 	font-weight: bold;
 }
 
-.works img {
+#works img {
 	width: 100%;
 	max-width: 100%;
 	object-fit: cover;
@@ -455,18 +455,18 @@ h2 {
   transform: translateY(20px);
 }
 
-.works img.appear{
+#works img.appear{
   opacity: 1;
   transform: none;
 }
 
-.works img:hover {
+#works img:hover {
 	opacity: .8;
 	box-shadow: 4px 2px 4px #7f9f98;
 	transform: scale(1.05);
 }
 
-.works p {
+#works p {
 	padding: 8px 0 32px;
 	text-align: center;
 }
@@ -564,10 +564,54 @@ overflow: hidden;
 	padding-bottom: 4px;
 }
 
+/* CONTACT */
+.info {
+  display: block;
+}
+
+.info > div {
+  border: 1px solid #b5c9c3;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 16px;
+  border-radius: 8px;
+  height: 120px;
+	position: relative;
+}
+
+.info div .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.info p {
+  margin-bottom: 0;
+}
+
+.info p:first-child {
+  margin-bottom: 8px;
+}
+
+.info i {
+  font-size: 18px;
+  color: #b5c9c3;
+  padding-right: 8px;
+}
+
+.img {
+	display: none;
+	background-image: url(images/rabbit_blue.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
 .footer {
 	height: 150px;
 	background-color: #ecf8f8;
 	position: relative;
+	margin-top: 80px;
 }
 
 .footer .container {

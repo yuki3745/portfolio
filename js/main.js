@@ -55,7 +55,7 @@
     }
 
     {
-      const targets = document.querySelectorAll('.works img');
+      const targets = document.querySelectorAll('#works img');
     
       function callback(entries, obs) {
     
