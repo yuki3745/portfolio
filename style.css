@@ -288,7 +288,7 @@ header.show {
 	height: 250px;
 	border-radius: 8px;
 	object-fit: cover;
-	object-position: left;
+	object-position: center;
 	margin: 0 auto;
 	display: block;
 	border: 1px solid #7f9f98;
