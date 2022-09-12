@@ -285,8 +285,8 @@ header.show {
 /* PROFILE */
 #profile img {
 	width: 150px;
-	height: 250px;
-	border-radius: 8px;
+	height: 150px;
+	border-radius: 50%;
 	object-fit: cover;
 	object-position: center;
 	margin: 0 auto;
